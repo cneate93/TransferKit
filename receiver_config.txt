@@ -1,0 +1,7 @@
+# --- Receiver config (Remote Centre) ---
+bind_ip=10.1.0.95
+port=8080
+user=rc
+pass=rcpass
+receive_dir=C:\ReceivedFiles
+keep_window_open=true     # if false the launcher exits after starting server

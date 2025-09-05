@@ -1,0 +1,21 @@
+# --- Sender config (Venue) ---
+target_ip=10.1.0.95
+port=8080
+user=rc
+pass=rcpass
+
+# Path to a file OR a folder (no trailing \ if it's a folder)
+source=
+
+# Optional parent folder on receiver under C:\ReceivedFiles
+dest_root=Incoming
+
+# Performance (10 Gb link starting points)
+transfers=16
+streams=16
+checkers=16
+checksum=false
+bwlimit=0        # 0 = uncapped; e.g. 750M caps around 6 Gbps
+
+# UX
+pause_on_finish=false
